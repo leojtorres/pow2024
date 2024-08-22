@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>noticia 1</title>
+    <title>noticia 1</title>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/header.css" />    
+    <link rel="stylesheet" href="css/noticias.css" />    
 </head>
 <body>
     <header>
         <a href="index.html">
             <img style="height: 100px;" src="https://logowik.com/content/uploads/images/tyc-sports9267.logowik.com.webp" title="tyc" alt="tyc"/>
         </a>
-        <nav>
+        <nav class="menuheader" id="menuheader">
             <a href="noticia1.html">noticia 1</a>
             <a href="noticia2.html">noticia 2</a>
         </nav>
@@ -46,8 +51,8 @@
             </p>
         </div>
         <div>
-            <ol>
-                <li>José Torres Gil (ARG) - 94,82</li>
+            <ol class="tablaganadores">
+                <li><span class="ganador">José Torres Gil (ARG) - 94,82</span></li>
                 <li>Kieran Reilly (GBR) - 93,91</li>
                 <li>Anthony Jeanjean (FRA) - 93,76</li>
                 <li>Marcus Christopher (USA) - 93,11</li>
@@ -66,7 +71,7 @@
                     <th>PAIS</th>
                     <th>PUNTOS</th>
                 </tr>
-                <tr>
+                <tr class="ganador">
                     <td>1</td>
                     <td>José Torres Gil</td>
                     <td>ARG</td>
