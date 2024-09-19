@@ -1,0 +1,20 @@
+{
+  "status": {
+    "code": "0",
+	"message": "respuesta ok"
+  },
+  "data": {
+    "title":"Prog. Orientada a la Web",
+    "description":"En este espacio virtual nos introduciremos en el mundo de las tecnologías Web (o llamada World Wide Web, www). Más precisamente, indagaremos en el aprendizaje de lenguajes y entornos de programación para la construcción de aplicaciones (o sistemas) orientadas a la Web. También tendremos la posibilidad de experimentar con herramientas para el desarrollo de aplicaciones móviles.",
+	"program":{
+		"theory":{
+			"classroom":"Aula 11",
+			"schedule":"Miércoles: 18:00 – 21:00 h"
+		},
+		"practice":{
+			"classroom":"Centro de Cómputos",
+			"schedule":"Jueves: 17:00 – 21 h"
+		}
+	}
+  }
+}
